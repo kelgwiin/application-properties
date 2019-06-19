@@ -1,19 +1,18 @@
-security:
-    basic:
-        enable: false
-
-server:
-    context-path: /auth
-    port: 8081
-spring:
-    application:
-        name: config-server
-    datasource:
-        password: admin
-        url: jdbc:mysql://localhost:3306/test-oauth2
-        username: admin
-    jpa:
-        hibernate:
-            ddl-auto: none
-    profiles:
-        active: develop
+security: 
+  basic: 
+    enable: false
+server: 
+  context-path: /auth
+  port: 8081
+spring: 
+  application: 
+    name: oauth2-test
+  datasource: 
+    password: admin
+    url: "jdbc:mysql://localhost:3306/test-oauth2"
+    username: admin
+  jpa: 
+    hibernate: 
+      ddl-auto: none
+  profiles: 
+    active: develop
