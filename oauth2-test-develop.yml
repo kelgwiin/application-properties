@@ -9,7 +9,7 @@ spring:
     name: oauth2-test
   datasource: 
     password: admin
-    url: "jdbc:mysql://localhost:3306/test-oauth2"
+    url: "jdbc:mysql://localhost:3306/rentdb"
     username: admin
   jpa: 
     hibernate: 
